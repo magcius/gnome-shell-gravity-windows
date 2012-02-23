@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/shell/extensions/gravity-windows/" id="org.gnome.shell.extensions.gravity-windows">
+    <key type="d" name="gravity">
+      <range min="0" max="2" />
+      <default>1.5</default>
+    </key>
+    <key type="d" name="drag">
+      <range min="0" max="1" />
+      <default>0.98</default>
+    </key>
+    <key type="d" name="friction">
+      <range min="0" max="1" />
+      <default>0.6</default>
+    </key>
+    <key type="d" name="bounce">
+      <range min="0" max="1" />
+      <default>0.6</default>
+    </key>
+  </schema>
+</schemalist>
